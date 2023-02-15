@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>ex2</title>
+      <script type="text/javascript" src="script.js" defer></script>
+      <style>
+         html {
+            padding: 0;
+            margin: 0 auto;
+         }
+         body {
+            padding: 0;
+            margin: 0 auto;
+         }
+         h1 {
+            padding: 25px;
+            font-size: 30px;
+         }
+         #header {
+            height: 100px;
+            background-color: lightgray;
+            text-align: center;
+            padding-top: 0px;
+            margin-bottom: 20px;
+         }
+
+         #container {
+            display: flex;
+         }
+         #titleDiv {
+            text-align: center;
+            font-size: 50px;
+            margin: 30px;
+            font-weight: 700;
+         }
+         #footer {
+            height: 100px;
+            background-color: lightgray;
+            text-align: center;
+            padding-top: 0px;
+            margin-bottom: 20px;
+         }
+         #imgDiv {
+            flex: 1;
+         }
+
+         #txtDiv {
+            flex: 2;
+            padding-top: 50px;
+            margin: 60px;
+            font-size: 20px;
+         }
+         img {
+            height: 400px;
+            width: 600px;
+            margin: 40px;
+         }
+      </style>
+   </head>
+   <body>
+      <div id="header">
+         <h1>Header</h1>
+      </div>
+      <div id="titleDiv"></div>
+      <div id="container">
+         <div id="imgDiv"></div>
+         <div id="txtDiv"></div>
+      </div>
+      <div id="footer">
+         <h1>Footer</h1>
+      </div>
+   </body>
+</html>

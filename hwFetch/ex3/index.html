@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>ex3</title>
+      <script type="text/javascript" src="script.js" defer></script>
+      <style>
+         body {
+            text-align: center;
+         }
+
+         p {
+            font-size: 50px;
+         }
+         #ppp {
+            font-size: 20px;
+         }
+         #cont {
+            display: flex;
+            align-items: center;
+         }
+         #priceDiv {
+            flex: 1;
+            height: 200px;
+            align-items: center;
+            background-color: lightgrey;
+            padding-top: 40px;
+         }
+         #left {
+            flex: 1;
+         }
+         #right {
+            flex: 1;
+         }
+      </style>
+   </head>
+   <body>
+      <div id="titleDiv">
+         <h1>BITCOIN PRICE ONLINE</h1>
+         <p id="ppp">refresh every 5 sec</p>
+      </div>
+      <div id="cont">
+         <div id="left"></div>
+         <div id="priceDiv">
+            <p id="priceP">loading...</p>
+         </div>
+         <div id="right"></div>
+      </div>
+      <div id="bitGif">
+         <img
+            src="https://cliply.co/wp-content/uploads/2021/02/372102230_BITCOIN_400px.gif"
+            alt="img is not found"
+         />
+      </div>
+   </body>
+</html>
